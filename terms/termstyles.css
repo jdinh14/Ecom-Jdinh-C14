@@ -1,3 +1,4 @@
+
 #terms {
     font-family: Arial, sans-serif;
     margin-left: 24%;
@@ -26,7 +27,7 @@
     color: #184AC4;
 }
 
-#pdflink{
+.pdflink{
     color: #F99D25;
 }
 
@@ -34,16 +35,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 0; 
+    
+
 }
 
 .tgrid-item img {
     width: 80%;
-    display: block;
+    display: flex;
+   
+       
+   
 }
 
 .tgrid-item img:hover{
     transform: scale(1.1);
 }
+
 
 section.newsVideo {
     display: flex;
@@ -55,3 +62,108 @@ section.newsVideo {
 
     width: 100%;
 }
+
+#jerry-foto{
+   
+    margin: 10px;
+    padding: 10px;
+    
+    width: 25%;
+}
+
+.mtjdinh{
+    display: flex;            
+    
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;   
+    margin: 0;
+    padding: 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: repeat(4, auto);    
+    gap: 0; 
+}
+
+.product img{
+
+    width: 70%;
+    height: auto;
+}
+
+.product{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10%;
+}
+
+.product h4{
+    color: #F99D25;
+}
+
+.product img:hover{
+    border-radius: 60%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(3);
+}
+
+#nodec{
+    list-style-type: none;
+}
+
+#emailcolor{
+    color: #F99D25;
+}
+
+.emailcolor{
+    color: #F99D25;
+}
+
+form {
+    text-align: left;
+    width: 290px;
+    margin: 20px auto 0;
+    
+}
+
+form label {
+    display: block;
+    width: 290px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+}
+
+form input {
+    display: block;
+    width: 290px;
+    padding: 5px;
+    margin: 0 0 10px;
+    border: none;
+    font-size: 22px;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    cursor: pointer;
+    border: #000 solid 1px;
+
+
+}
+
+form input[type="submit"] {
+    background: #F99D25;
+    color: white;
+    cursor: pointer;
+    width: 40%;
+    font-family:  Arial, sans-serif;
+ 
+}
+
+
